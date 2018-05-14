@@ -1,0 +1,12 @@
+{
+    "extends": "stylelint-config-standard",
+    "ignoreFiles": [
+        "public/production/stylesheets/**",
+        "./**/*.md",
+        "./**/*.html"
+    ],
+    "rules": {
+        "indentation": 4,
+        "no-missing-end-of-source-newline": null
+    }
+}

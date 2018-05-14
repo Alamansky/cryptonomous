@@ -1,0 +1,42 @@
+{
+	"env": {
+		"browser": true,
+		"node": true,
+		"commonjs": true,
+		"es6": true
+	},
+	"extends": [
+		"prettier"
+	],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true,
+			"jsx": true
+		},
+		"sourceType": "module"
+	},
+	"plugins": [
+		"prettier"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"linebreak-style": [
+			"off",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"prettier/prettier": [
+			"error"
+		]
+	}
+}
